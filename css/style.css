@@ -1,0 +1,45 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "微软雅黑";
+}
+
+.box {
+	position: relative;
+	float: left;
+}
+
+.content {
+	padding: 2px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+.content img {
+	width: 234px;
+	height: auto;
+	opacity: 1;
+}
+.content img:hover{
+	opacity: 0.7;
+}
+
+#container {
+	background: #fff none repeat scroll 0 0;
+	margin: 0 auto;
+	width: auto;
+}
+
+.content .img-title{
+	text-align: center;
+	color: #CCCCCC;
+	cursor: pointer;
+}
+
+.content .img-title:hover{
+	color: #666;
+}
